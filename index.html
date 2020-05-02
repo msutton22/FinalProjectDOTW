@@ -3,18 +3,40 @@
     <title>Final Project</title>
 
 <link rel="stylesheet"  href="style.css">
+<style>
+  body {background-image: url('background1.jpg');
+background-repeat: no-repeat;}
+</style>
   </head>
   <body>
-    <img class="psycha" src="psych.gif" alt="Psychadelic gif">
-    <img class="beatles" src="beatles.png" alt="The Beatles">
-    <div class="ship"></div>
-    <img class="hippie" src="hippie.jpg" alt="Hippies">
-    <img class="vietnam" src="vietnam.jpg" alt="Vietnam">
-    <div class="sign"></div>
-
-  <audio autoplay controls loop>
-  <source src="SunnyAfternoon.mp3" type="audio/mpeg">
+    <nav>
+      <div id = "radios">
+        <div id="radioLine">
+      <a href="finalProject60">
+      <img id ="radio" src="radio.png" alt="Radio image">
+      <img id ="line" src="line.png" alt="line image">
+    </a>
+  </div>
+    <audio id="radioSound" loop>
+    <source src="radio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+  <img id ="shadow" src="shadow.png" alt="shadow image">
+    </div>
+<div id="recordPlayer">
+  <img id ="record" src="record.png" alt="record image">
+  <audio id="stayAlive" loop>
+  <source src="StayingAlive.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
+</div>
+<div id="cassette">
+  <audio id="straightUp" loop>
+  <source src="StraightUp.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+  </nav>
+  <script src="nav.js"></script>
   </body>
   </html>

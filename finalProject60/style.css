@@ -1,0 +1,83 @@
+body {
+  background: gold;
+}
+
+.beatles {
+  filter: grayscale(20%);
+  position: absolute;
+  top: 12%;
+  left: 0%;
+  width: 60%;
+  height: 600px;
+  z-index: 50;
+  opacity: 0.8;
+}
+
+.hippie {
+  mix-blend-mode: luminosity;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  z-index: 20;
+}
+
+.ship {
+   background-image: linear-gradient(to right, #69B62F, #DE3375), url(rocket.jpg);
+   background-blend-mode: overlay;
+   box-shadow: 40px 40px 70px 15px white inset;
+   mix-blend-mode: multiply;
+   z-index: 30;
+   position: absolute;
+   bottom: 0%;
+   right: 0%;
+   width: 350px;
+   height: 400px;
+   opacity: 1;
+}
+
+.psycha {
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.2;
+  z-index: 10;
+  mix-blend-mode: multiply;
+}
+
+.vietnam {
+  position: absolute;
+  mix-blend-mode: darken;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: 60%;
+  z-index: 40;
+  opacity: 0.7;
+}
+
+.sign {
+  background-image: linear-gradient(to right, #FFA07A, #FFD700), url(sign.jpg);
+  background-blend-mode: darken;
+  position: absolute;
+  mix-blend-mode: darken;
+  top: 0%;
+  left: 15%;
+  width: 200px;
+  height: 300px;
+  z-index: 15;
+  opacity: 0.6;
+  transform: rotate(-26deg);
+}
+
+
+audio {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+}

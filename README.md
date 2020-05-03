@@ -8,5 +8,10 @@ For my final project, I've decided to create three webpages dedicated to three d
 Overall, I'm really excited for this project!
 
 ### Final Iteration
+While I had a very strong vision for where I wanted this project to go, I sometimes struggled to get my vision accross on the page. However, the finished project ended up looking almost exactly like I had pictured! I was able to create the three drawings of the 60s, 70s, and 80s, along with a navigation that uses a radio, record, and cassette to represent the pages respectively. In order to accomplish the music changing mechanic and the color effects, I created 3 clickable svg buttons on each page that would each represent not only a color, but a different song from the decade. I chose the colors based on popular color schemes of the decade and tried to represent different kinds of songs of the decade with each choice. I was able to animate the color change by using css keyframes as well as javascript. In making the collages, I tried to choose moments of history that really represented the decade as well as important pop culture changes. I didn't end up incorporating HTML Canvas or videos because I felt like my collage didn't need it. In order to accomplish the nav animations, I had to a few different things. For the radio, I created a small white line to layer on top of the radio image I found, and animated the line moving back and forth on hover. I also animated the radio bouncing up and down and the shadow under it. For the record, I just animated it to spin in a circle which was fairly easy to do. And for the cassette, I found a gif I liked of a cassette playing, so I decided to slip the gif into it's seperate images, and created a keyframe of the background image changing to the next image on hover. 
+
+I'm pretty happy with how this project turned out. I've always had a fascination with history, as well as a love for music of the past decades. I'm excited that it turned out almost exactly like I imagined! 
+
+
 Check out the link to see my final project!
 http://i6.cims.nyu.edu/~ms9642/FinalProject/

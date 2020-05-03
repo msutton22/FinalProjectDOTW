@@ -1,0 +1,44 @@
+body {
+  background-color: gold;
+}
+svg {
+  margin-right: 1px;
+  right: 2px;
+  z-index: 2000;
+  position: absolute;
+}
+#circle1 {
+  fill: lightslategray;
+  z-index: 1000;
+  opacity: 1;
+}
+
+#circle2 {
+  fill: lightSkyblue;
+  z-index: 1000;
+  opacity: 1;
+}
+
+#circle3 {
+  fill: goldenRod;
+  z-index: 1000;
+  opacity: 1;
+}
+
+#circle4 {
+  fill: Gold;
+  z-index: 1000;
+  opacity: 1;
+}
+
+#circle5 {
+  fill: darkred;
+  z-index: 1000;
+  opacity: 1;
+}
+
+#circle6 {
+  fill: fireBrick;
+  z-index: 1000;
+  opacity: 1;
+}

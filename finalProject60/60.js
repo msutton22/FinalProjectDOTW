@@ -1,7 +1,9 @@
 let yellowAudio = document.getElementById("song");
 yellowAudio.play();
 let blueAudio = document.getElementById("song2");
+blueAudio.pause();
 let redAudio = document.getElementById("song3");
+redAudio.pause();
 
 let blueButton = document.getElementById("circle2");
 let yellowButton = document.getElementById("circle4");

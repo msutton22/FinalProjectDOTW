@@ -1,5 +1,46 @@
 body {
-  background: gold;
+  background-color: gold;
+}
+svg {
+  margin-right: 1px;
+  right: 2px;
+  z-index: 2000;
+  position: absolute;
+}
+#circle1 {
+  fill: lightslategray;
+  z-index: 1000;
+  opacity: 1;
+}
+
+#circle2 {
+  fill: lightSkyblue;
+  z-index: 1000;
+  opacity: 1;
+}
+
+#circle3 {
+  fill: goldenRod;
+  z-index: 1000;
+  opacity: 1;
+}
+
+#circle4 {
+  fill: Gold;
+  z-index: 1000;
+  opacity: 1;
+}
+
+#circle5 {
+  fill: darkred;
+  z-index: 1000;
+  opacity: 1;
+}
+
+#circle6 {
+  fill: fireBrick;
+  z-index: 1000;
+  opacity: 1;
 }
 
 .beatles {
@@ -61,7 +102,7 @@ body {
 }
 
 .sign {
-  background-image: linear-gradient(to right, #FFA07A, #FFD700), url(sign.jpg);
+  background-image: url(sign.jpg);
   background-blend-mode: darken;
   position: absolute;
   mix-blend-mode: darken;
@@ -74,10 +115,47 @@ body {
   transform: rotate(-26deg);
 }
 
-
 audio {
   position: fixed;
   top: 20px;
   right: 20px;
   z-index: 100;
+}
+
+@keyframes yellowToBlueBackground {
+  0% { background-color: gold; }
+  33% { background-color: lightblue; }
+  67% { background-color: lightskyblue; }
+  100% { background-color: deepskyblue; }
+}
+
+@keyframes redToBlueBackground {
+  0% { background-color: indianRed; }
+  33% { background-color: lightblue; }
+  67% { background-color: lightskyblue; }
+  100% { background-color: deepskyblue; }
+}
+
+@keyframes blueToYellowBackground {
+  0% { background-color: deepSkyblue; }
+  50% { background-color: lightgoldenrodyellow; }
+  100% { background-color: gold; }
+}
+
+@keyframes redToYellowBackground {
+  0% { background-color: indianRed; }
+  50% { background-color: lightgoldenrodyellow; }
+  100% { background-color: gold; }
+}
+
+@keyframes yellowToRedBackground {
+  0% { background-color: gold; }
+  50% { background-color: lightpink; }
+  100% { background-color: indianRed; }
+}
+
+@keyframes blueToRedBackground {
+  0% { background-color: deepSkyblue; }
+  50% { background-color: lightpink; }
+  100% { background-color: indianRed; }
 }

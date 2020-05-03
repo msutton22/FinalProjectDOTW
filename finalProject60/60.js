@@ -69,7 +69,6 @@ function yellowButtonAnim() {
     redAudio.pause();
     body.style.animation = "redToYellowBackground 3s linear";
     body.style.backgroundColor = "gold";
-    console.log("heeey");
  }
 }
 

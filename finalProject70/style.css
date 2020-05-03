@@ -1,5 +1,5 @@
 body {
-  background-color: gold;
+  background-color: #ff944d;
 }
 svg {
   margin-right: 1px;
@@ -8,37 +8,135 @@ svg {
   position: absolute;
 }
 #circle1 {
-  fill: lightslategray;
+  fill: #ff6600;
   z-index: 1000;
   opacity: 1;
 }
 
 #circle2 {
-  fill: lightSkyblue;
+  fill: #ff944d;
   z-index: 1000;
   opacity: 1;
 }
 
 #circle3 {
-  fill: goldenRod;
+  fill: green;
   z-index: 1000;
   opacity: 1;
 }
 
 #circle4 {
-  fill: Gold;
+  fill: olive;
   z-index: 1000;
   opacity: 1;
 }
 
 #circle5 {
-  fill: darkred;
+  fill: darkgoldenrod;
   z-index: 1000;
   opacity: 1;
 }
 
 #circle6 {
-  fill: fireBrick;
+  fill: #ffe44d;
   z-index: 1000;
   opacity: 1;
+}
+
+.disco {
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.6;
+  z-index: 30;
+  mix-blend-mode: multiply;
+}
+
+.lavalamp {
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.3;
+  z-index: 2;
+  mix-blend-mode: multiply;
+}
+.pong {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 80%;
+  height: 90%;
+  opacity: 0.7;
+  z-index: 20;
+}
+
+.woman {
+  position: absolute;
+  mix-blend-mode: lighten;
+  bottom: 0%;
+  left: 0%;
+  width: 85%;
+  height: 60%;
+  z-index: 10;
+  opacity: 0.8;
+}
+
+.nixon {
+  position: absolute;
+  mix-blend-mode: darken;
+  bottom: 0%;
+  right: 0%;
+  z-index: 40;
+  opacity: 0.9;
+}
+
+.starWars {
+  width: 30%;
+  position: absolute;
+  mix-blend-mode: darken;
+  height: 30%;
+  top: 20%;
+  right: 5%;
+  z-index: 5;
+  opacity: 0.5;
+}
+
+@keyframes orangeToGreenBackground {
+  0% { background-color: #ff944d; }
+  50% { background-color: darkkhaki; }
+  100% { background-color: olive; }
+}
+
+@keyframes greenToOrangeBackground {
+  0% { background-color: olive; }
+  50% { background-color: #ff6600; }
+  100% { background-color: #ff944d; }
+}
+
+@keyframes greenToYellowBackground {
+  0% { background-color: olive; }
+  50% { background-color: lightgoldenrodyellow; }
+  100% { background-color: #ffe44d; }
+}
+
+@keyframes orangeToYellowBackground {
+  0% { background-color: #ff944d; }
+  50% { background-color: lightgoldenrodyellow; }
+  100% { background-color: #ffe44d; }
+}
+
+@keyframes yellowToGreenBackground {
+  0% { background-color: #ffe44d; }
+  50% { background-color: darkkhaki; }
+  100% { background-color: olive; }
+}
+
+@keyframes yellowToOrangeBackground {
+  0% { background-color: #ffe44d; }
+  50% { background-color: #ff6600; }
+  100% { background-color: #ff944d; }
 }

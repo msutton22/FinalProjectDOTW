@@ -1,0 +1,141 @@
+body {
+  background-color: hotpink;
+}
+svg {
+  margin-right: 1px;
+  right: 2px;
+  z-index: 2000;
+  position: absolute;
+}
+#circle1 {
+  fill: fuchsia;
+  z-index: 1000;
+  opacity: 1;
+}
+
+#circle2 {
+  fill: hotpink;
+  z-index: 1000;
+  opacity: 1;
+}
+
+#circle3 {
+  fill: plum;
+  z-index: 1000;
+  opacity: 1;
+}
+
+#circle4 {
+  fill: mediumorchid;
+  z-index: 1000;
+  opacity: 1;
+}
+
+#circle5 {
+  fill: teal;
+  z-index: 1000;
+  opacity: 1;
+}
+
+#circle6 {
+  fill: turquoise;
+  z-index: 1000;
+  opacity: 1;
+}
+
+.mtv {
+  left: 20%;
+  bottom: 10%;
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  opacity: 0.4;
+  z-index: 10;
+  mix-blend-mode: multiply;
+}
+
+.techno {
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.5;
+  z-index: 2;
+  mix-blend-mode: multiply;
+  transform: scaleY(-1);
+}
+.et {
+  top: 5%;
+  left: 0%;
+  width: 40%;
+  height: 60%;
+  position: absolute;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.reagan {
+  bottom: 0%;
+  right: 5%;
+  position: absolute;
+  opacity: 0.75;
+  z-index: 60;
+}
+
+.aids {
+  right: 8%;
+  top: 0%;
+  width: 60%;
+  height: 45%;
+  position: absolute;
+  mix-blend-mode: lighten;
+  opacity: 0.7;
+}
+
+.berlin {
+  position: absolute;
+  mix-blend-mode: multiply;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: 60%;
+  z-index: 30;
+  opacity: 0.8;
+}
+
+@keyframes pinkToPurpleBackground {
+  0% { background-color: hotpink; }
+  50% { background-color: orchid; }
+  100% { background-color: mediumorchid; }
+}
+
+@keyframes pinkToBlueBackground {
+  0% { background-color: hotpink; }
+  50% { background-color: teal; }
+  100% { background-color: turquoise; }
+}
+
+@keyframes blueToPinkBackground {
+  0% { background-color: turquoise; }
+  50% { background-color: pink; }
+  100% { background-color: hotpink; }
+}
+
+@keyframes blueToPurpleBackground {
+  0% { background-color: turquoise; }
+  50% { background-color: orchid; }
+  100% { background-color: mediumorchid; }
+}
+
+@keyframes purpleToPinkBackground {
+  0% { background-color: mediumorchid; }
+  50% { background-color: pink; }
+  100% { background-color: hotpink; }
+}
+
+@keyframes purpleToBlueBackground {
+  0% { background-color: mediumorchid; }
+  50% { background-color: teal; }
+  100% { background-color: turquoise; }
+}

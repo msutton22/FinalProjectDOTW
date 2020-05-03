@@ -8,3 +8,5 @@ For my final project, I've decided to create three webpages dedicated to three d
 Overall, I'm really excited for this project!
 
 ### Final Iteration
+Check out the link to see my final project!
+http://i6.cims.nyu.edu/~ms9642/FinalProject/
